@@ -11,5 +11,5 @@
             </a>
         </div>
     </div>
-    <div dropzone class="dropzone"></div>
+    <div (dropzone)="initDropzone($event)" [config]="dropzoneConfiguration" class="dropzone"></div>
 </div>
