@@ -1,0 +1,13 @@
+{
+  "ngDeps": null,
+  "type": {
+    "Dropzone": {
+      "class": "Identifier",
+      "name": "Dropzone",
+      "moduleUrl": "asset:dropzone_angular_dart/lib/src/Dropzone.dart",
+      "prefix": null,
+      "value": null
+    }
+  },
+  "alias": {}
+}

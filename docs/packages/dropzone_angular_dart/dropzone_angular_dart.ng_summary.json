@@ -1,0 +1,48 @@
+{
+  "ngDeps": {
+    "1": "dropzone_angular_dart",
+    "3": [
+      {
+        "1": "src/DropzoneDirective.dart",
+        "2": [
+          "DropzoneDirective"
+        ],
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "src/Dropzone.dart"
+      },
+      {
+        "1": "src/DropzoneConfiguration.dart"
+      },
+      {
+        "1": "src/DropzoneDirective.dart"
+      }
+    ],
+    "6": "dropzone_angular_dart.dart"
+  },
+  "type": {
+    "DROPZONE_DIRECTIVES": {
+      "class": "Identifier",
+      "name": "DROPZONE_DIRECTIVES",
+      "moduleUrl": "asset:dropzone_angular_dart/lib/dropzone_angular_dart.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Identifier",
+          "name": "DropzoneDirective",
+          "moduleUrl": null,
+          "prefix": null,
+          "value": null
+        }
+      ]
+    }
+  },
+  "alias": {
+    "DROPZONE_DIRECTIVES": [
+      "DropzoneDirective"
+    ]
+  }
+}

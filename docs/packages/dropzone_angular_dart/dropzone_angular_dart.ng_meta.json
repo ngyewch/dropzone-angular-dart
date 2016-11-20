@@ -1,0 +1,205 @@
+{
+  "ngDeps": {
+    "1": "dropzone_angular_dart",
+    "3": [
+      {
+        "1": "src/DropzoneDirective.dart",
+        "2": [
+          "DropzoneDirective"
+        ],
+        "5": false
+      }
+    ],
+    "4": [
+      {
+        "1": "src/Dropzone.dart"
+      },
+      {
+        "1": "src/DropzoneConfiguration.dart"
+      },
+      {
+        "1": "src/DropzoneDirective.dart"
+      }
+    ],
+    "6": "dropzone_angular_dart.dart",
+    "7": [
+      {
+        "1": "src/DropzoneDirective.template.dart",
+        "4": "i0"
+      },
+      {
+        "1": "src/Dropzone.template.dart",
+        "4": "i1"
+      },
+      {
+        "1": "src/DropzoneConfiguration.template.dart",
+        "4": "i2"
+      }
+    ]
+  },
+  "type": {
+    "DROPZONE_DIRECTIVES": {
+      "class": "Identifier",
+      "name": "DROPZONE_DIRECTIVES",
+      "moduleUrl": "asset:dropzone_angular_dart/lib/dropzone_angular_dart.dart",
+      "prefix": null,
+      "value": [
+        {
+          "class": "Provider",
+          "token": {
+            "value": null,
+            "identifier": {
+              "class": "Type",
+              "name": "DropzoneDirective",
+              "moduleUrl": "asset:dropzone_angular_dart/lib/src/DropzoneDirective.dart",
+              "prefix": null,
+              "isHost": false,
+              "value": null,
+              "diDeps": [
+                {
+                  "token": {
+                    "value": null,
+                    "identifier": {
+                      "class": "Identifier",
+                      "name": "ElementRef",
+                      "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+                      "prefix": null,
+                      "value": null
+                    },
+                    "identifierIsInstance": false
+                  },
+                  "query": null,
+                  "viewQuery": null,
+                  "value": null,
+                  "isAttribute": false,
+                  "isSelf": false,
+                  "isHost": false,
+                  "isSkipSelf": false,
+                  "isOptional": false,
+                  "isValue": false
+                }
+              ]
+            },
+            "identifierIsInstance": false
+          },
+          "useClass": {
+            "class": "Type",
+            "name": "DropzoneDirective",
+            "moduleUrl": "asset:dropzone_angular_dart/lib/src/DropzoneDirective.dart",
+            "prefix": null,
+            "isHost": false,
+            "value": null,
+            "diDeps": [
+              {
+                "token": {
+                  "value": null,
+                  "identifier": {
+                    "class": "Identifier",
+                    "name": "ElementRef",
+                    "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+                    "prefix": null,
+                    "value": null
+                  },
+                  "identifierIsInstance": false
+                },
+                "query": null,
+                "viewQuery": null,
+                "value": null,
+                "isAttribute": false,
+                "isSelf": false,
+                "isHost": false,
+                "isSkipSelf": false,
+                "isOptional": false,
+                "isValue": false
+              }
+            ]
+          },
+          "useExisting": null,
+          "useValue": null,
+          "useFactory": null,
+          "useProperty": null,
+          "multi": false,
+          "deps": null
+        }
+      ]
+    },
+    "Dropzone": {
+      "class": "Identifier",
+      "name": "Dropzone",
+      "moduleUrl": "asset:dropzone_angular_dart/lib/src/Dropzone.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DropzoneConfiguration": {
+      "class": "Identifier",
+      "name": "DropzoneConfiguration",
+      "moduleUrl": "asset:dropzone_angular_dart/lib/src/DropzoneConfiguration.dart",
+      "prefix": null,
+      "value": null
+    },
+    "DropzoneDirective": {
+      "class": "Directive",
+      "isComponent": false,
+      "selector": "[dropzone]",
+      "exportAs": null,
+      "type": {
+        "class": "Type",
+        "name": "DropzoneDirective",
+        "moduleUrl": "asset:dropzone_angular_dart/lib/src/DropzoneDirective.dart",
+        "prefix": null,
+        "isHost": false,
+        "value": null,
+        "diDeps": [
+          {
+            "token": {
+              "value": null,
+              "identifier": {
+                "class": "Identifier",
+                "name": "ElementRef",
+                "moduleUrl": "asset:angular2/lib/src/core/linker/element_ref.dart",
+                "prefix": null,
+                "value": null
+              },
+              "identifierIsInstance": false
+            },
+            "query": null,
+            "viewQuery": null,
+            "value": null,
+            "isAttribute": false,
+            "isSelf": false,
+            "isHost": false,
+            "isSkipSelf": false,
+            "isOptional": false,
+            "isValue": false
+          }
+        ]
+      },
+      "changeDetection": 6,
+      "inputs": {
+        "dropzoneConfiguration": "config"
+      },
+      "inputTypes": {
+        "dropzoneConfiguration": " DropzoneConfiguration"
+      },
+      "outputs": {
+        "eventEmitter": "dropzone"
+      },
+      "hostListeners": {},
+      "hostProperties": {},
+      "hostAttributes": {},
+      "lifecycleHooks": [
+        6
+      ],
+      "template": null,
+      "providers": [],
+      "viewProviders": [],
+      "queries": [],
+      "viewQueries": []
+    }
+  },
+  "alias": {
+    "DROPZONE_DIRECTIVES": [
+      "DropzoneDirective"
+    ]
+  }
+}
